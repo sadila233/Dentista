@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #8a0a0a;
+    padding: 12px 20px;
+    color: #ffffff;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    color: #cfcfcf;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #f7c584;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    color: #fff;
+    font-weight: bold;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.signup {
+    background-color: #f7c584;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ESPECIALIDADES */
+.especialidades {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.especialidades h2 {
+    font-size: 36px;
+    color: #861414;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 12px;
+}
+
+.item p {
+    font-weight: bold;
+    font-size: 12px;
+    color: #1a1a1a;
+    letter-spacing: 0.5px;
+}
+
+.whatsapp-button {
+    margin-top: 50px;
+}
+
+.whatsapp-button a {
+    background-color: #25D366;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+}
+
+.whatsapp-button a:hover {
+    background-color: #1ebe5d;
+}
+ h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ .geral{
+  width: 200px;
+  height: 40px;
+ }
